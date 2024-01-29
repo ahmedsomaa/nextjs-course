@@ -1,0 +1,23 @@
+{
+  "name": "incremental-static-generation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next",
+    "json-server": "json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "json-server": "1.0.0-alpha.23",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
