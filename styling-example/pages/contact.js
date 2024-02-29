@@ -1,7 +1,9 @@
+import styles from "@/styles/Contact.module.css";
+
 export default function Contact() {
   return (
     <div>
-      <h2>Contact</h2>
+      <h2 className={styles.highlight}>Contact</h2>
       <button className="btn btn-primary">Contact</button>
     </div>
   );
