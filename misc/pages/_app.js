@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Footer from "@/components/Footer";
 import Header from "@/components/header";
 
@@ -11,6 +12,9 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>Codevolution</title>
+      </Head>
       <Header />
       <Component {...pageProps} />
       <Footer />
